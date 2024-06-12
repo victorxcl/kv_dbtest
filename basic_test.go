@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xlander-io/kv/kv_interface"
-	"github.com/xlander-io/kv/kv_leveldb"
+	"github.com/xlander-io/kv_interface"
+	"github.com/xlander-io/kv_leveldb"
 )
 
 func newDB() kv_interface.KVDB {
