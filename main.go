@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/xlander-io/kv/kv_leveldb"
+	"github.com/xlander-io/kv_leveldb"
 )
 
 func main() {
