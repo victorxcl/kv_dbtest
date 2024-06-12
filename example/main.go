@@ -7,12 +7,13 @@ import (
 )
 
 func main() {
-	// kv_interface.KVDB kvdb = kv_leve
+
 	kvdb, err := kv_leveldb.NewDB("./test.db")
 	if err != nil {
 		fmt.Println("new db err:", err)
 		return
 	}
+	defer kvdb.Close()
 
 	// //simple test
 	// kvdb.Put([]byte("key1"), []byte("val1"), false)
