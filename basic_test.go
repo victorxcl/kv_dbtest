@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xlander-io/kv_interface"
+	kv_interface "github.com/xlander-io/kv"
 	"github.com/xlander-io/kv_leveldb"
 )
 
